@@ -1,5 +1,5 @@
 # MangaLlama
-
+This project is using mangadex api. Users are able to read manga
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server
