@@ -1,0 +1,43 @@
+.manga-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../../../../background3.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .manga-box {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .manga-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: yellow;
+  }
+  
+  p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  

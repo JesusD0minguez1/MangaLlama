@@ -1,0 +1,8 @@
+<div class="manga-container">
+    <div routerLink="/manga/{{manga.id}}" class="manga-box" *ngFor="let manga of mangaList">
+        <h2>{{manga.title}}</h2>
+        <img class="img" src="{{manga.cover_art}}" alt="{{manga.title}}">
+        <p>Year: {{manga.year}}</p>
+        <p>Rating: {{manga.contentRating}}</p>    
+    </div>
+</div>

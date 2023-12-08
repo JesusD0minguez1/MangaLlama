@@ -1,0 +1,17 @@
+<div *ngIf="manga" class="mangaka">
+    <h1 class="title">{{manga.title}}</h1>
+    <img src="{{manga.cover_art}}" alt="{{manga.title}}"/>
+    <h2>Manga status: {{manga.status}}</h2>
+    <h2>Target demo: {{manga.publicationDemographic}}</h2>
+    <h2>Year: {{manga.year}}</h2>
+    <h2>Content Rating: {{manga.contentRating}}</h2>
+    <h2>Description:</h2>
+    <p>{{manga.description}}</p>
+    <h2>Available Chapters</h2>
+    <ul>
+        <li *ngFor="let chapter of chapters">
+            <a routerLink="chapter/{{chapter.chapterId}}">VOl.{{chapter.volume}} Ch.{{chapter.chapter}}  {{chapter.title}}</a>
+        </li>
+    </ul>
+    
+</div>

@@ -1,0 +1,8 @@
+<div class="chapter-container">
+    <img *ngIf="chapterData" [src]="chapterData[page]" alt="Chapter Page" class="chapter-image" />
+    <div class="page-navigation">
+        <button (click)="previousPage()" [disabled]="page === 0">Previous</button>
+        <button *ngIf="chapterData" (click)="nextPage()" [disabled]="page === chapterData.length - 1">Next</button>
+        
+    </div>
+  </div>

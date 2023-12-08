@@ -1,0 +1,56 @@
+.mangaka {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mangaka h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .mangaka img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .mangaka h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .mangaka p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #555; 
+    border-radius: 5px;
+    color: #FFF; 
+    background-color: #333; 
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #555; 
+  }  
